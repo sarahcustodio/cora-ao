@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  }
+.quadrado{
+  position:absolute;
+  background-color: red ;
+  width: 310px;
+  height: 310px;
+  transform: rotate(-45deg);
+  margin: 200px;
+ top:30px ;
+  left: 30px;
+  margin-left: 210px; 
+}
+ .b1{
+    width: 320px;
+  height: 330px;
+  background-color: red ;
+  border-radius: 50%;
+ transform: translateX(50px);
+  margin-top: -100px;
+   margin-left:60px;
+ }
+  .b2{
+  width: 320px;
+  height: 320px;
+  background-color: red ;
+  border-radius: 50%;
+ margin-left:-10px;
+  margin-top: -100px;
+   
+}
